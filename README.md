@@ -20,8 +20,8 @@ The IKick Disposable Email service uses machine learning to determine if an emai
 ### Option 1: Using pip
 ```bash
 # Clone the repository
-git clone [your-repo-url]
-cd [repository-directory]
+git clone https://github.com/sahayagodson/ikick-disposable-email
+cd ikick-disposable-email
 
 # Install dependencies
 pip install -r requirements.txt
@@ -292,7 +292,7 @@ The system automatically saves various outputs to the `output/` directory:
 
 ### Training Output
 
-![alt text](</images/pasted Graphic 2.png>)
+![alt text](</images/Pasted Graphic 2.png>)
 
 ## 🌐 Azure Deployment
 
