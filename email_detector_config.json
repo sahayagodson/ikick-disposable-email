@@ -1,0 +1,12 @@
+{
+    "use_dns": true,
+    "use_whois": false,
+    "max_features": 30,
+    "cv_folds": 5,
+    "random_state": 42,
+    "allow_list_path": "data/legitimate_emails.txt",
+    "deny_list_path": "data/disposable_emails.txt",
+    "model_path": "models/ikick_email_detector.pkl",
+    "suspected_disposable_path": "output/suspected_disposable_domains.csv",
+    "suspected_domains_threshold": 0.85
+}
